@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="survey_5834312.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:survey_5834312"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="SurveyView"
+        ContentTemplate="{DataTemplate local: NewPage1}"
+        Route="NewPage1" />
+
+</Shell>
